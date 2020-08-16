@@ -3,10 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://atsis98.github.io/</loc>
-  </url>
-  
-  <url>
     <loc>https://atsis98.github.io/authors/</loc>
   </url>
   
@@ -16,6 +12,10 @@
   
   <url>
     <loc>https://atsis98.github.io/author/harsha-sista/</loc>
+  </url>
+  
+  <url>
+    <loc>https://atsis98.github.io/</loc>
   </url>
   
   <url>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Portfolio</title>
+    <title>Harsha Sista</title>
     <link>https://atsis98.github.io/</link>
       <atom:link href="https://atsis98.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>My Portfolio</description>
+    <description>Harsha Sista</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 18 Aug 2020 22:38:08 +0530</lastBuildDate>
     <image>
       <url>https://atsis98.github.io/images/icon_hu3f7b2b206f3b1a0e7569742943667eab_21402_512x512_fill_lanczos_center_2.png</url>
-      <title>My Portfolio</title>
+      <title>Harsha Sista</title>
       <link>https://atsis98.github.io/</link>
     </image>
     
@@ -50,7 +50,7 @@
 
 
 
-  &lt;img data-src=&#34;https://atsis98.github.io/project/laparoscopy/Figure%201_hu26bf59bc12cb55b847555cdae4283cbf_138972_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;384&#34; height=&#34;412&#34;&gt;
+  &lt;img data-src=&#34;https://atsis98.github.io/project/laparoscopy/featured_hu26bf59bc12cb55b847555cdae4283cbf_138972_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;384&#34; height=&#34;412&#34;&gt;
 
 
 

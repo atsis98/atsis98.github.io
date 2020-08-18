@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My Portfolio</title>
-    <link>https://atsis98.github.io/</link>
-      <atom:link href="https://atsis98.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>My Portfolio</description>
+    <title>Design and Simulation | My Portfolio</title>
+    <link>https://atsis98.github.io/tag/design-and-simulation/</link>
+      <atom:link href="https://atsis98.github.io/tag/design-and-simulation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Design and Simulation</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 18 Aug 2020 22:38:08 +0530</lastBuildDate>
     <image>
       <url>https://atsis98.github.io/images/icon_hu3f7b2b206f3b1a0e7569742943667eab_21402_512x512_fill_lanczos_center_2.png</url>
-      <title>My Portfolio</title>
-      <link>https://atsis98.github.io/</link>
+      <title>Design and Simulation</title>
+      <link>https://atsis98.github.io/tag/design-and-simulation/</link>
     </image>
     
     <item>

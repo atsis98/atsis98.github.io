@@ -670,15 +670,15 @@
 
     <div class="article-style">
       <p>In this thesis, the aerodynamic study of the flow field around the tail rotor and fuselage of a rotorcraft is conducted by generating a high-resolution grid using ANSYS ICEM. Subsequent simulations are carried out on the in-house CFD solver, ROSITA, using the Navier-Stokes governing equation in combination with the Spallart-Allmaras Turbulence Model.</p>
-<h2 id="introduction">Introduction</h2>
+<h2 id="bintroductionb"><b>Introduction</b></h2>
 <p>Aerodynamics has always been at the cutting edge with respect to the development of aircraft and rotorcraft. With the development of computational methods and the resource to put them to use, aerodynamics has grown into something bigger and better. With today’s technology and tools, it is possible to analyze the flow past a stationary wing or a moving rotor and improve the design according to the requirements accordingly. Consequently, a lot of research has focused on this sector of the aerospace industry. With rotorcraft being more inherently complex aeromechanical vehicles, the understanding of the development of the flow field around them has lagged behind the traditional fixed-wing planes. Studying how the flow interacts and the noise it generates is garnering more attention as people are looking to increase the efficiency of future machines in terms of performance, as well as the generated sound. Therefore, gaining an understanding of noise generation and its relation to the aerodynamics of rotorcraft is of the utmost importance.</p>
-<h2 id="context-of-the-present-work">Context of the present work</h2>
+<h2 id="bcontext-of-the-present-workb"><b>Context of the present work</b></h2>
 <p>The scientific work undertaken during the course of this project is in the context of the work done by the European Action Group AG 24, ‘Helicopter Fuselage Scattering Effects for Exterior/Interior Noise Reduction’ in the Group for Aeronautical Research and Technology in Europe (GARTEUR). The objectives of this AG are:</p>
 <ul>
 <li>To develop and validate numerical prediction methods</li>
 <li>To generate a unique noise scattering database through wind tunnel tests using generic configurations.</li>
 </ul>
-<h2 id="objectives">Objectives</h2>
+<h2 id="bobjectivesb"><b>Objectives</b></h2>
 <p>The objectives of my thesis were:</p>
 <ul>
 <li>Grid generation around the tail rotor and the fuselage used by the Group for Aeronautical Research and Technology in Europe (GARTEUR) for the study of scattering by the helicopter fuselage.</li>
@@ -686,7 +686,7 @@
 <li>Understanding the basics of aeroacoustics.</li>
 <li>Running the simulation on the Rotor plus Fuselage Configuration on ROSITA.</li>
 </ul>
-<h2 id="an-insight-into-noise">An insight into Noise</h2>
+<h2 id="ban-insight-into-noiseb"><b>An insight into Noise</b></h2>
 <p>Noise can be generated from rotorcraft from a variety of sources, out of which the rotor, the engine, and the transmission, are the major sources. In the previous two decades, noise reduction has received industrial attention due to certification rules becoming more stringent. Due to industrial involvement, the development of prediction codes has taken a turn for the better. To meet the needs of the industry, the research into noise reduction has really taken off.</p>
 <p>Noise is broadly classified into three categories, as shown in Figure 1:</p>
 <ul>
@@ -717,7 +717,7 @@
 
 
 
-  <img data-src="/project/polimi-thesis/Fig.1_hu0c2932c643e9621c1149e8bdfdc1fa74_78611_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="691" height="435">
+  <img data-src="/project/polimi-thesis/Fig.1_hu0c2932c643e9621c1149e8bdfdc1fa74_78611_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="600" height="600">
 
 
 
@@ -773,7 +773,7 @@
 <li>Approach based on Integral formulation</li>
 </ul>
 <p>While CAA permits a combined aerodynamic and aeroacoustic study, it is very computationally intensive, since it is based on the classical field methods. On the other hand, Integral methods have a pre-requisite of the aerodynamic knowledge around the rotor but are more suitable for obtaining aeroacoustic data at any point in the given field. It is in the development of such integral methods that the current research trend has its focus.</p>
-<h2 id="geometry-and-meshing">Geometry and meshing</h2>
+<h2 id="bgeometry-and-meshingb"><b>Geometry and meshing</b></h2>
 <p>The geometry used by AG24 is that of a simple fuselage, with a tail boom and a tail rotor. Since the focus of this project was only on the tail rotor, only the relevant parts were extracted, as shown below:</p>
 
 
@@ -798,7 +798,7 @@
 
 
 
-  <img data-src="/project/polimi-thesis/Fig.3_hu5be18ae7203f080ede98b2293bd41ce7_29327_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="594" height="295">
+  <img data-src="/project/polimi-thesis/Fig.3_hu5be18ae7203f080ede98b2293bd41ce7_29327_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="400" height="400">
 
 
 
@@ -835,7 +835,7 @@
 
 
 
-  <img data-src="/project/polimi-thesis/Fig.4_hu2ef0ed3b2f81acd20a1b5dffaafac1c7_6959_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="609" height="286">
+  <img data-src="/project/polimi-thesis/Fig.4_hu2ef0ed3b2f81acd20a1b5dffaafac1c7_6959_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="400" height="400">
 
 
 
@@ -849,7 +849,7 @@
 </figure>
 
 <p>A high-resolution grid around the rotor is required for the computation of the aerodynamics around the specified geometry for achieving a mesh independent simulation. During the solving process, the mesh should also be able to tag onto another background mesh if necessary. Due to the flexibility, it offers during meshing and the variety of options it provides for meshing complex and faceted geometries, ANSYS ICEM has been used as the meshing software.</p>
-<h2 id="simulation-setup">Simulation setup</h2>
+<h2 id="bsimulation-setupb"><b>Simulation setup</b></h2>
 <p>ROtorcraft Software ITAly (ROSITA), version V 4.63, is the in-house solver that is used for this simulation during the course of this thesis. Its core element is a multi-block-structured steady, or unsteady solver with a second-order discretization scheme that supports overset grids. It supports the usage of the Chimera method, also known as the overset mesh technique, for meshing the domain. The overset method has multiple meshes with different geometrical complexities and tag them to a single overarching mesh. In this scenario, the surface mesh is tagged to the background mesh.</p>
 <p>The methodology to be followed for running the simulation is as follows:</p>
 <ul>
@@ -862,7 +862,7 @@
 <li>Navier-Stokes equation without turbulence</li>
 <li>Navier-Stokes equation with Spallart-Allmaras turbulence model.</li>
 </ul>
-<h2 id="result-extraction-on-tecolot">Result extraction on Tecolot</h2>
+<h2 id="bresult-extraction-on-tecolotb"><b>Result extraction on Tecolot</b></h2>
 <p>Tecplot is a data visualization and post-processing software that is suitable for working with raw simulation data. Since the ROSITA post-processor outputs files in a Tecplot format, it is the natural choice for analyzing the results of the simulation.</p>
 <p>The distribution of pressure over the surface of the blade is an interesting phenomenon that calls to be investigated. It is also important from an aeroacoustic point of view since many noise propagation codes, and studies use the pressure field in their calculations. Therefore, obtaining a proper pressure distribution is essential, and a comparison to see which model yields the better results is made.</p>
 <p>The ROSITA Solver generates two surface files in the .plt format, with data for each of the two blades. Combining the two files in Tecplot, we get the following image:</p>
@@ -885,20 +885,26 @@
 
 
 
-<figure >
+<figure id="figure-figure-5-surface-pressure-contours-on-both-blades">
 
 
 
-  <img data-src="/project/polimi-thesis/Fig.5_hubed5b54afa66e2327a57c91e6472468d_17528_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="731" height="650">
+  <img data-src="/project/polimi-thesis/Fig.5_hubed5b54afa66e2327a57c91e6472468d_17528_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="500" height="500">
 
 
+
+  
+  
+  <figcaption>
+    Figure 5: Surface pressure contours on both blades
+  </figcaption>
 
 
 </figure>
 
 <p>The pressure contours are nearly symmetrical in the opposite direction and consistent with what is expected of a rotating blade.</p>
 <p>The behavior of the Mach Number provides proper insight into the aerodynamics of the flow field surrounding the rotor blade. Unlike pressure, it is not directly useful from an aeroacoustic point of view, but the implications in Aerodynamics are useful enough to study it in detail.</p>
-<h2 id="conclusion">Conclusion</h2>
+<h2 id="bconclusionb"><b>Conclusion</b></h2>
 <p>The flow development around the tail rotor of the helicopter is mostly as expected, with a separation observed at the leading edge and a region of recirculation observed as the distance from the hub increases along the span of the blade. The observations made from the results can be summarized as follows:</p>
 <ul>
 <li>The oscillation in the solution is much lesser in the Turbulence Model.</li>

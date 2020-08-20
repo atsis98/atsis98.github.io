@@ -5,12 +5,20 @@
     <link>https://atsis98.github.io/post/</link>
       <atom:link href="https://atsis98.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 20 Aug 2020 21:34:36 +0530</lastBuildDate>
     <image>
       <url>https://atsis98.github.io/images/icon_hu3f7b2b206f3b1a0e7569742943667eab_21402_512x512_fill_lanczos_center_2.png</url>
       <title>Posts</title>
       <link>https://atsis98.github.io/post/</link>
     </image>
+    
+    <item>
+      <title>My Article Name</title>
+      <link>https://atsis98.github.io/post/milan-thesis-tales/</link>
+      <pubDate>Thu, 20 Aug 2020 21:34:36 +0530</pubDate>
+      <guid>https://atsis98.github.io/post/milan-thesis-tales/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

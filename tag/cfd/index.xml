@@ -17,7 +17,7 @@
       <link>https://atsis98.github.io/project/polimi-thesis/</link>
       <pubDate>Mon, 17 Aug 2020 23:58:37 +0530</pubDate>
       <guid>https://atsis98.github.io/project/polimi-thesis/</guid>
-      <description>&lt;p&gt;In this thesis, the aerodynamic study of the flow field around the tail rotor and fuselage of a rotorcraft is conducted by generating a high-resolution grid using ANSYS ICEM. Subsequent simulations are carried out on the in-house CFD solver, ROSITA, using the Navier-Stokes governing equation in combination with the Spallart-Allmaras Turbulence Model.&lt;/p&gt;
+      <description>&lt;p&gt;This project was the focus of my undergraduate thesis at the Rotorcraft Aerodynamic Laboratory at Politecnico di Milano, under the guidance of Prof. Luigi Vigevano, Associate Professor at the Department of Aerospace Engineering. In this thesis, the aerodynamic study of the flow field around the tail rotor and fuselage of a rotorcraft is conducted by generating a high-resolution grid using ANSYS ICEM. Subsequent simulations are carried out on the in-house CFD solver, ROSITA, using the Navier-Stokes governing equation in combination with the Spallart-Allmaras Turbulence Model.&lt;/p&gt;
 &lt;h2 id=&#34;bintroductionb&#34;&gt;&lt;b&gt;Introduction&lt;/b&gt;&lt;/h2&gt;
 &lt;p&gt;Aerodynamics has always been at the cutting edge with respect to the development of aircraft and rotorcraft. With the development of computational methods and the resource to put them to use, aerodynamics has grown into something bigger and better. With today’s technology and tools, it is possible to analyze the flow past a stationary wing or a moving rotor and improve the design according to the requirements accordingly. Consequently, a lot of research has focused on this sector of the aerospace industry. With rotorcraft being more inherently complex aeromechanical vehicles, the understanding of the development of the flow field around them has lagged behind the traditional fixed-wing planes. Studying how the flow interacts and the noise it generates is garnering more attention as people are looking to increase the efficiency of future machines in terms of performance, as well as the generated sound. Therefore, gaining an understanding of noise generation and its relation to the aerodynamics of rotorcraft is of the utmost importance.&lt;/p&gt;
 &lt;h2 id=&#34;bcontext-of-the-present-workb&#34;&gt;&lt;b&gt;Context of the present work&lt;/b&gt;&lt;/h2&gt;
@@ -263,11 +263,11 @@
     </item>
     
     <item>
-      <title>Flow simulation of supercritical Carbon Dioxide through a Channel</title>
+      <title>Flow simulation of supercritical Carbon Dioxide through a channel</title>
       <link>https://atsis98.github.io/project/kharagpur/</link>
       <pubDate>Sun, 16 Aug 2020 16:04:43 +0530</pubDate>
       <guid>https://atsis98.github.io/project/kharagpur/</guid>
-      <description>&lt;p&gt;The project focused on simulating the flow of supercritical Carbon Dioxide (CO2) through a small channel, studying the velocity and temperature profiles.&lt;/p&gt;
+      <description>&lt;p&gt;This project was the focus of my research-oriented summer internship under Dr. Sourav Mitra, Assistant Professor at the Indian Institute of Technology, Kharagpur. It focused on simulating the flow of supercritical Carbon Dioxide (CO2) through a small channel, studying the velocity and temperature profiles.&lt;/p&gt;
 &lt;h2 id=&#34;bintroductionb&#34;&gt;&lt;b&gt;Introduction&lt;/b&gt;&lt;/h2&gt;
 &lt;p&gt;In the modern era of industrialization, many processes require the usage of solvents for different applications pertaining to the particular industry. For example, solvents are routinely used as paint removers, lacquers, adhesives, cleaning materials, etc. Different industries use different kinds of solvents for their own applications, and with an increase in health awareness, the food industry is looking to move away from classic solvents. Due to this, supercritical Carbon Dioxide is finding favor in the coffee manufacturing industry, as a decaffeinating solvent.&lt;/p&gt;
 &lt;p&gt;It is also gaining momentum in other industrial aspects, as a working fluid due to its relative stability, and as a component in power generation. Due to these advances and the growing use of Supercritical CO2, it is vital to study the characteristics and behavior of this fluid for innovative future applications.&lt;/p&gt;

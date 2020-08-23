@@ -17,7 +17,7 @@
       <link>https://atsis98.github.io/project/laparoscopy/</link>
       <pubDate>Tue, 18 Aug 2020 22:38:08 +0530</pubDate>
       <guid>https://atsis98.github.io/project/laparoscopy/</guid>
-      <description>&lt;p&gt;The project aims to introduce a new design of an instrument that combines the functionality of surgical forceps, a Suction-Irrigation (S-I) device, and a Carbon Dioxide (CO2) insufflator. To understand the project in the right context, I will start with a brief introduction to surgery and laparoscopy before moving on to the details of the project.&lt;/p&gt;
+      <description>&lt;p&gt;The project aims to introduce a new design of an instrument that combines the functionality of surgical forceps, a Suction-Irrigation (S-I) device, and a Carbon Dioxide (CO2) insufflator. To understand the project in the right context, I will start with a brief introduction to surgery and laparoscopy before moving on to the project&amp;rsquo;s details.&lt;/p&gt;
 &lt;h2 id=&#34;bintroductionb&#34;&gt;&lt;b&gt;Introduction&lt;/b&gt;&lt;/h2&gt;
 &lt;p&gt;The abdominal cavity has long been a focus for surgical procedures since it contains a variety of organs and is relatively easy to access from the outside. However, surgeons traditionally made a cut that was 6-12 inches long to see the organ they were working on and give enough room for the proper maneuvers. However, the onset of laparoscopy changed this completely. Laparoscopy is a minimally-invasive diagnostic procedure used by surgeons to examine and operate upon organs in the abdomen. Several small cuts are made, usually less than half an inch wide, through which a camera and the surgical instruments are inserted. This advantages of doing so are listed below:&lt;/p&gt;
 &lt;ul&gt;
@@ -101,7 +101,7 @@
 
 &lt;/figure&gt;
 
-&lt;p&gt;Initially, the surgeon makes a small incision through a trocar near the belly button. Then a camera-enabled laparoscope is inserted into the abdominal cavity through a trocar into the first of the three ports. The abdomen is inflated with carbon dioxide gas (a method known as pneumoperitoneum) through the second port to view internal organs clearly on a monitor. The reason for preferring carbon dioxide over other gases is that it is non-flammable, non-combustible, colorless, readily soluble in water, cheap, and reduces the risk of complications occurring by blood clots in veins.&lt;/p&gt;
+&lt;p&gt;Initially, the surgeon makes a small incision through a trocar near the belly button. A camera-enabled laparoscope is then inserted into the abdominal cavity through a trocar into the first of the three ports. The abdomen is inflated with carbon dioxide gas (a method known as pneumoperitoneum) through the second port to clearly view internal organs on a monitor. The reason for preferring carbon dioxide over other gases is that it is non-flammable, non-combustible, colorless, readily soluble in water, cheap, and reduces the risk of complications from blood clots in veins.&lt;/p&gt;
 &lt;p&gt;The final port is for the laparoscopic forceps, to perform operations such as grasping, cutting, lasing, cauterizing, etc. After inflating the carbon dioxide gas, the surgeon inserts the required instruments and begins operating.&lt;/p&gt;
 &lt;h2 id=&#34;bwhat-is-being-done-in-the-projectb&#34;&gt;&lt;b&gt;What is being done in the project?&lt;/b&gt;&lt;/h2&gt;
 &lt;p&gt;The objectives of the project are enumerated below:&lt;/p&gt;
@@ -118,7 +118,7 @@
 &lt;li&gt;To simulate the multiphase flow of carbon dioxide and water for various volume fractions.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&#34;bpart-1-designing-the-novel-instrumentb&#34;&gt;&lt;b&gt;Part 1: Designing the novel instrument&lt;/b&gt;&lt;/h2&gt;
-&lt;p&gt;I joined the ongoing project in January 2020, with the initial objective of running simulations, but with my previous experience with design and Solidworks in particular, I started on converting the conceptual idea into a tangible design. The idea was simple, modify and add on to an existing design of the forceps, as shown in the figure below:&lt;/p&gt;
+&lt;p&gt;I joined the ongoing project in January 2020, with the initial objective of running simulations. With my previous experience with design and Solidworks in particular, I started converting the conceptual idea into a tangible design. The idea was simple: to modify and add to an existing design of the forceps, as shown in the figure below:&lt;/p&gt;
 
 
 
@@ -155,8 +155,8 @@
 
 &lt;/figure&gt;
 
-&lt;p&gt;To achieve the desired multi-functionality, we decided to add a sleeve covering the forceps, which would act as the common conduit for the S-I process as well as the CO2 insufflation, depending on usage.&lt;/p&gt;
-&lt;p&gt;After spending the first few weeks building a forceps assembly based on existing designs, I added the outer sleeve and other components as required. The design process was iterative in nature, with me working closely with my two advising professors and the Ph.D. student to give it the desired shape, literally and figuratively. After all the requirements were met, we filed an Invention Disclosure Form and applied for an Indian Patent for our design.&lt;/p&gt;
+&lt;p&gt;To achieve the desired multi-functionality, we decided to add a sleeve covering the forceps, which would act as the common conduit for the S-I process and the CO2 insufflation, depending on usage.&lt;/p&gt;
+&lt;p&gt;After spending the first few weeks building a forceps assembly based on existing designs, I added the outer sleeve and other components as required. The design process was iterative, with me working closely with my two advising professors and the Ph.D. student to give it the desired shape, literally and figuratively. After all the requirements were met, we filed an Invention Disclosure Form and applied for an Indian Patent for our design.&lt;/p&gt;
 &lt;h2 id=&#34;bpart-2-non-newtonian-simulationsb&#34;&gt;&lt;b&gt;Part 2: Non-Newtonian Simulations&lt;/b&gt;&lt;/h2&gt;
 &lt;p&gt;What is a non-Newtonian fluid? It is a fluid that does not follow Newton&amp;rsquo;s law of viscosity. Now, what is that? Newton defines viscosity as the ratio between shear stress and shear rate.&lt;/p&gt;
 
@@ -193,14 +193,12 @@
 &lt;p&gt;Blood is one such non-newtonian fluid. Since laparoscopic surgery involves grasping tissue using forceps and using the S-I apparatus to suck out the excess fluids, blood is the obvious choice for the fluid to simulate for our instrument.&lt;/p&gt;
 &lt;p&gt;There are many models available to model blood as a non-newtonian fluid in ANSYS, a simulation software. We chose to go with two such models and run simulations to decide which gave better results.&lt;/p&gt;
 &lt;p&gt;Once the outer sleeve was added onto the design, I extracted a fluid domain from it, which would serve as the geometry for all the fluid simulations we were going to do. Importing it into ANSYS, we spent a couple of weeks conducting mesh-independent studies to select one final mesh.&lt;/p&gt;
-&lt;p&gt;Then, with the two models and the final mesh, we simulated the process of the apparatus sucking the blood out of the operating area, by giving the appropriate pressure differences. The resulting depictions of the flow physics were interesting, to say the least, and make up the crux of a couple of research papers that are being written right now.&lt;/p&gt;
+&lt;p&gt;Then, with the two models and the final mesh, we simulated the apparatus&amp;rsquo;s apparatus sucking the blood out of the operating area by giving the appropriate pressure differences. The resulting depictions of the flow physics were interesting, to say the least, and make up the crux of a couple of research papers being written right now.&lt;/p&gt;
 &lt;h2 id=&#34;bpart-3-multiphase-simulationsb&#34;&gt;&lt;b&gt;Part 3: Multiphase Simulations&lt;/b&gt;&lt;/h2&gt;
-&lt;p&gt;The part I am currently working on, apart from writing a few papers detailing our research, is multiphase simulations. So what exactly does multiphase flow mean? It refers to the flow of two or more fluid phases through the same medium. In this case, for CO2 insufflation, CO2 and air make up the two phases that flow through the outer sleeve.
-Therefore, the modeling of this situation on ANSYS is much more complex. To reduce a degree of complexity, the inlet was divided into two fractions, according to the respective volume fraction of the two elements, and then simulated in Fluent. These are very computationally intensive simulations, which in ordinary speak means that they take a lot of time. For the next month or so, I will be working on this. Stay tuned for further updates, and you just might be rewarded with more details for your patience.&lt;/p&gt;
+&lt;p&gt;Apart from writing a few papers detailing our research, I am currently working on multiphase simulations. So what exactly does multiphase flow mean? It refers to the flow of two or more fluid phases through the same medium. In this case, CO2 and air make up the two phases that flow through the outer sleeve. Therefore, the modeling of this situation on ANSYS is much more complex. To reduce a degree of complexity, the inlet was divided into two fractions, according to the respective volume fraction of the two elements, and then simulated in Fluent. These are very computationally intensive simulations, which in ordinary speak means that they take a lot of time. For the next month or so, I will be working on this. Stay tuned for further updates, and you just might be rewarded with more details for your patience.&lt;/p&gt;
 &lt;h2 id=&#34;bconclusionb&#34;&gt;&lt;b&gt;Conclusion&lt;/b&gt;&lt;/h2&gt;
-&lt;p&gt;I have been working on this project since the beginning of the year. Although this is a new area of research, having never ventured to the biomechanical side of my degree, it caught my interest in my initial conversations with Prof. Murthy when I approached him for a project back in November last year. Although most of my research work has been related to topics that come under the banner of Aerospace Engineering, I am glad I took up a topic that was on a different segment of the broad Mechanical umbrella.
-In addition to giving me insights into the design and simulation of a practical problem, this project honed my research methodology, especially with respect to the iterative nature of the process and the hard work involved in sowing the seeds that will eventually blossom into tangible branches of knowledge.&lt;/p&gt;
-&lt;p&gt;I am deeply grateful to have the opportunity to have worked for an extended period of time on this project, and I believe that my skillset is much improved because of this. Carrying this forward, I shall complete the rest of my tenure with the same enthusiasm for learning with which I began this journey.&lt;/p&gt;
+&lt;p&gt;I have been working on this project since the beginning of the year. Although this is a new area of research, having never ventured to the biomechanical side of my degree, it caught my interest in my initial conversations with Prof. Murthy when I approached him for a project back in November last year. Although most of my research work has been related to topics that come under the banner of Aerospace Engineering, I am glad I took up a topic that was on a different segment of the broad Mechanical umbrella. In addition to giving me insights into the design and simulation of a practical problem, this project honed my research methodology, especially with respect to the iterative nature of the process and the hard work involved in sowing the seeds that will eventually blossom into tangible branches of knowledge.&lt;/p&gt;
+&lt;p&gt;I am deeply grateful to have the opportunity to have worked for an extended period on this project, and I believe that my skillset is much improved because of this. Carrying this forward, I shall complete the rest of my tenure with the same enthusiasm for learning with which I began this journey.&lt;/p&gt;
 </description>
     </item>
     
@@ -209,11 +207,11 @@ In addition to giving me insights into the design and simulation of a practical 
       <link>https://atsis98.github.io/project/polimi-thesis/</link>
       <pubDate>Mon, 17 Aug 2020 23:58:37 +0530</pubDate>
       <guid>https://atsis98.github.io/project/polimi-thesis/</guid>
-      <description>&lt;p&gt;This project was the focus of my undergraduate thesis at the Rotorcraft Aerodynamic Laboratory at Politecnico di Milano, under the guidance of Prof. Luigi Vigevano, Associate Professor at the Department of Aerospace Engineering. In this thesis, the aerodynamic study of the flow field around the tail rotor and fuselage of a rotorcraft is conducted by generating a high-resolution grid using ANSYS ICEM. Subsequent simulations are carried out on the in-house CFD solver, ROSITA, using the Navier-Stokes governing equation in combination with the Spallart-Allmaras Turbulence Model.&lt;/p&gt;
+      <description>&lt;p&gt;This project was the focus of my undergraduate thesis at the Rotorcraft Aerodynamic Laboratory at Politecnico di Milano, under the guidance of Prof. Luigi Vigevano, Associate Professor at the Department of Aerospace Engineering. In this thesis, the aerodynamic study of the flow field around the tail rotor and fuselage of a rotorcraft is conducted by generating a high-resolution grid using ANSYS ICEM. Subsequent simulations are carried out on the in-house CFD solver, ROSITA, using the Navier-Stokes governing equation combined with the Spallart-Allmaras Turbulence Model.&lt;/p&gt;
 &lt;h2 id=&#34;bintroductionb&#34;&gt;&lt;b&gt;Introduction&lt;/b&gt;&lt;/h2&gt;
-&lt;p&gt;Aerodynamics has always been at the cutting edge with respect to the development of aircraft and rotorcraft. With the development of computational methods and the resource to put them to use, aerodynamics has grown into something bigger and better. With today’s technology and tools, it is possible to analyze the flow past a stationary wing or a moving rotor and improve the design according to the requirements accordingly. Consequently, a lot of research has focused on this sector of the aerospace industry. With rotorcraft being more inherently complex aeromechanical vehicles, the understanding of the development of the flow field around them has lagged behind the traditional fixed-wing planes. Studying how the flow interacts and the noise it generates is garnering more attention as people are looking to increase the efficiency of future machines in terms of performance, as well as the generated sound. Therefore, gaining an understanding of noise generation and its relation to the aerodynamics of rotorcraft is of the utmost importance.&lt;/p&gt;
+&lt;p&gt;Aerodynamics has always been at the cutting edge with respect to the development of aircraft and rotorcraft. With the development of computational methods and the resources to put them to use, aerodynamics has grown into something bigger and better. With today’s technology and tools, it is possible to analyze the flow past a stationary wing or a moving rotor and improve the design according to the requirements accordingly. Consequently, a lot of research has focused on this sector of the aerospace industry. With rotorcraft being more inherently complex aeromechanical vehicles, understanding the development of the flow field around them has lagged behind the traditional fixed-wing planes. Studying how the flow interacts and the noise it generates is garnering more attention as people are looking to increase the efficiency of future machines in terms of performance, as well as the generated sound. Therefore, understanding noise generation and its relation to the aerodynamics of rotorcraft is of the utmost importance.&lt;/p&gt;
 &lt;h2 id=&#34;bcontext-of-the-present-workb&#34;&gt;&lt;b&gt;Context of the present work&lt;/b&gt;&lt;/h2&gt;
-&lt;p&gt;The scientific work undertaken during the course of this project is in the context of the work done by the European Action Group AG 24, ‘Helicopter Fuselage Scattering Effects for Exterior/Interior Noise Reduction’ in the Group for Aeronautical Research and Technology in Europe (GARTEUR). The objectives of this AG are:&lt;/p&gt;
+&lt;p&gt;The scientific work undertaken during this project is in the context of the work done by the European Action Group AG 24, ‘Helicopter Fuselage Scattering Effects for Exterior/Interior Noise Reduction’ in the Group for Aeronautical Research and Technology in Europe (GARTEUR). The objectives of this AG are:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;To develop and validate numerical prediction methods&lt;/li&gt;
 &lt;li&gt;To generate a unique noise scattering database through wind tunnel tests using generic configurations.&lt;/li&gt;
@@ -224,10 +222,10 @@ In addition to giving me insights into the design and simulation of a practical 
 &lt;li&gt;Grid generation around the tail rotor and the fuselage used by the Group for Aeronautical Research and Technology in Europe (GARTEUR) for the study of scattering by the helicopter fuselage.&lt;/li&gt;
 &lt;li&gt;Usage of the in-house solver, Rotorcraft Solver Italy (ROSITA), to run aerodynamic simulations on the isolated tail rotor.&lt;/li&gt;
 &lt;li&gt;Understanding the basics of aeroacoustics.&lt;/li&gt;
-&lt;li&gt;Running the simulation on the Rotor plus Fuselage Configuration on ROSITA.&lt;/li&gt;
+&lt;li&gt;Simulating the Rotor plus Fuselage Configuration on ROSITA.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;ban-insight-into-noiseb&#34;&gt;&lt;b&gt;An insight into Noise&lt;/b&gt;&lt;/h2&gt;
-&lt;p&gt;Noise can be generated from rotorcraft from a variety of sources, out of which the rotor, the engine, and the transmission, are the major sources. In the previous two decades, noise reduction has received industrial attention due to certification rules becoming more stringent. Due to industrial involvement, the development of prediction codes has taken a turn for the better. To meet the needs of the industry, the research into noise reduction has really taken off.&lt;/p&gt;
+&lt;p&gt;Noise can be generated from rotorcraft from a variety of sources, out of which the rotor, the engine, and the transmission, are the major sources. In the previous two decades, noise reduction has received industrial attention due to certification rules becoming more stringent. Due to industrial involvement, the development of prediction codes has taken a turn for the better. To meet the needs of the industry, the research into noise reduction has taken off.&lt;/p&gt;
 &lt;p&gt;Noise is broadly classified into three categories, as shown in Figure 1:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;loading and broadband noise&lt;/li&gt;
@@ -310,7 +308,7 @@ In addition to giving me insights into the design and simulation of a practical 
 &lt;p&gt;Prediction codes are used to simulate the noise generated by helicopters and are divided into the following two categories:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Computational Aeroacoustics Approach (CAA)&lt;/li&gt;
-&lt;li&gt;Approach based on Integral formulation&lt;/li&gt;
+&lt;li&gt;The approach based on Integral formulation&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;While CAA permits a combined aerodynamic and aeroacoustic study, it is very computationally intensive, since it is based on the classical field methods. On the other hand, Integral methods have a pre-requisite of the aerodynamic knowledge around the rotor but are more suitable for obtaining aeroacoustic data at any point in the given field. It is in the development of such integral methods that the current research trend has its focus.&lt;/p&gt;
 &lt;h2 id=&#34;bgeometry-and-meshingb&#34;&gt;&lt;b&gt;Geometry and meshing&lt;/b&gt;&lt;/h2&gt;
@@ -351,7 +349,7 @@ In addition to giving me insights into the design and simulation of a practical 
 
 &lt;/figure&gt;
 
-&lt;p&gt;For simplification of the simulation process, the hub and the drive shaft of the assembly are neglected during calculations, and the resultant geometry is depicted below:&lt;/p&gt;
+&lt;p&gt;For simplifying the simulation process, the hub and the drive shaft of the assembly are neglected during calculations, and the resultant geometry is depicted below:&lt;/p&gt;
 
 
 
@@ -388,9 +386,9 @@ In addition to giving me insights into the design and simulation of a practical 
 
 &lt;/figure&gt;
 
-&lt;p&gt;A high-resolution grid around the rotor is required for the computation of the aerodynamics around the specified geometry for achieving a mesh independent simulation. During the solving process, the mesh should also be able to tag onto another background mesh if necessary. Due to the flexibility, it offers during meshing and the variety of options it provides for meshing complex and faceted geometries, ANSYS ICEM has been used as the meshing software.&lt;/p&gt;
+&lt;p&gt;A high-resolution grid around the rotor is required for the computation of the aerodynamics around the specified geometry for achieving a mesh independent simulation. During the solving process, the mesh should also be able to tag onto another background mesh if necessary. Due to the flexibility it offers during meshing and the variety of options it provides for meshing complex and faceted geometries, ANSYS ICEM has been used as the meshing software.&lt;/p&gt;
 &lt;h2 id=&#34;bsimulation-setupb&#34;&gt;&lt;b&gt;Simulation setup&lt;/b&gt;&lt;/h2&gt;
-&lt;p&gt;ROtorcraft Software ITAly (ROSITA), version V 4.63, is the in-house solver that is used for this simulation during the course of this thesis. Its core element is a multi-block-structured steady, or unsteady solver with a second-order discretization scheme that supports overset grids. It supports the usage of the Chimera method, also known as the overset mesh technique, for meshing the domain. The overset method has multiple meshes with different geometrical complexities and tag them to a single overarching mesh. In this scenario, the surface mesh is tagged to the background mesh.&lt;/p&gt;
+&lt;p&gt;ROtorcraft Software ITAly (ROSITA), version V 4.63, is the in-house solver used for simulations during this thesis. Its core element is a multi-block-structured steady, or unsteady solver with a second-order discretization scheme that supports overset grids. It supports the usage of the Chimera method, also known as the overset mesh technique, for meshing the domain. The overset method has multiple meshes with different geometrical complexities and tag them to a single overarching mesh. In this scenario, the surface mesh is tagged to the background mesh.&lt;/p&gt;
 &lt;p&gt;The methodology to be followed for running the simulation is as follows:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Setting up parameters like the Governing Equations, Turbulence model, and time step in the configuration file, ROSITA.cfg.&lt;/li&gt;
@@ -402,9 +400,9 @@ In addition to giving me insights into the design and simulation of a practical 
 &lt;li&gt;Navier-Stokes equation without turbulence&lt;/li&gt;
 &lt;li&gt;Navier-Stokes equation with Spallart-Allmaras turbulence model.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;bresult-extraction-on-tecolotb&#34;&gt;&lt;b&gt;Result extraction on Tecolot&lt;/b&gt;&lt;/h2&gt;
+&lt;h2 id=&#34;bresult-extraction-on-tecplotb&#34;&gt;&lt;b&gt;Result extraction on Tecplot&lt;/b&gt;&lt;/h2&gt;
 &lt;p&gt;Tecplot is a data visualization and post-processing software that is suitable for working with raw simulation data. Since the ROSITA post-processor outputs files in a Tecplot format, it is the natural choice for analyzing the results of the simulation.&lt;/p&gt;
-&lt;p&gt;The distribution of pressure over the surface of the blade is an interesting phenomenon that calls to be investigated. It is also important from an aeroacoustic point of view since many noise propagation codes, and studies use the pressure field in their calculations. Therefore, obtaining a proper pressure distribution is essential, and a comparison to see which model yields the better results is made.&lt;/p&gt;
+&lt;p&gt;The distribution of pressure over the blade&amp;rsquo;s surface is an interesting phenomenon that calls to be investigated. It is also important from an aeroacoustic point of view since many noise propagation codes, and studies use the pressure field in their calculations. Therefore, obtaining a proper pressure distribution is essential, and a comparison to see which model yields the better results is made.&lt;/p&gt;
 &lt;p&gt;The ROSITA Solver generates two surface files in the .plt format, with data for each of the two blades. Combining the two files in Tecplot, we get the following image:&lt;/p&gt;
 
 
@@ -443,7 +441,7 @@ In addition to giving me insights into the design and simulation of a practical 
 &lt;/figure&gt;
 
 &lt;p&gt;The pressure contours are nearly symmetrical in the opposite direction and consistent with what is expected of a rotating blade.&lt;/p&gt;
-&lt;p&gt;The behavior of the Mach Number provides proper insight into the aerodynamics of the flow field surrounding the rotor blade. Unlike pressure, it is not directly useful from an aeroacoustic point of view, but the implications in Aerodynamics are useful enough to study it in detail.&lt;/p&gt;
+&lt;p&gt;The behavior of the Mach Number contours provides proper insight into the aerodynamics of the flow field surrounding the rotor blade. Unlike pressure, it is not directly useful from an aeroacoustic point of view, but the implications in Aerodynamics are useful enough to study it in detail.&lt;/p&gt;
 &lt;h2 id=&#34;bconclusionb&#34;&gt;&lt;b&gt;Conclusion&lt;/b&gt;&lt;/h2&gt;
 &lt;p&gt;The flow development around the tail rotor of the helicopter is mostly as expected, with a separation observed at the leading edge and a region of recirculation observed as the distance from the hub increases along the span of the blade. The observations made from the results can be summarized as follows:&lt;/p&gt;
 &lt;ul&gt;
@@ -461,10 +459,10 @@ In addition to giving me insights into the design and simulation of a practical 
       <guid>https://atsis98.github.io/project/kharagpur/</guid>
       <description>&lt;p&gt;This project was the focus of my research-oriented summer internship under Dr. Sourav Mitra, Assistant Professor at the Indian Institute of Technology, Kharagpur. It focused on simulating the flow of supercritical Carbon Dioxide (CO2) through a small channel, studying the velocity and temperature profiles.&lt;/p&gt;
 &lt;h2 id=&#34;bintroductionb&#34;&gt;&lt;b&gt;Introduction&lt;/b&gt;&lt;/h2&gt;
-&lt;p&gt;In the modern era of industrialization, many processes require the usage of solvents for different applications pertaining to the particular industry. For example, solvents are routinely used as paint removers, lacquers, adhesives, cleaning materials, etc. Different industries use different kinds of solvents for their own applications, and with an increase in health awareness, the food industry is looking to move away from classic solvents. Due to this, supercritical Carbon Dioxide is finding favor in the coffee manufacturing industry, as a decaffeinating solvent.&lt;/p&gt;
-&lt;p&gt;It is also gaining momentum in other industrial aspects, as a working fluid due to its relative stability, and as a component in power generation. Due to these advances and the growing use of Supercritical CO2, it is vital to study the characteristics and behavior of this fluid for innovative future applications.&lt;/p&gt;
+&lt;p&gt;In the modern era of industrialization, many processes require the usage of solvents for different applications pertaining to the particular industry. For example, solvents are routinely used as paint removers, lacquers, adhesives, cleaning materials, etc. Different industries use different kinds of solvents for their applications, and with an increase in health awareness, the food industry is looking to move away from classic solvents. Due to this, supercritical Carbon Dioxide is finding favor in the coffee manufacturing industry, as a decaffeinating solvent.&lt;/p&gt;
+&lt;p&gt;It is also gaining momentum in other industrial aspects, as a working fluid due to its relative stability, and as a component in power generation. Due to these advances and the growing use of Supercritical CO2, it is vital to study this fluid&amp;rsquo;s characteristics and behavior for innovative future applications.&lt;/p&gt;
 &lt;h2 id=&#34;bwhat-is-a-supercritical-fluidb&#34;&gt;&lt;b&gt;What is a supercritical fluid?&lt;/b&gt;&lt;/h2&gt;
-&lt;p&gt;A supercritical fluid is any fluid at a temperature and pressure above its critical point, where distinct liquid and gas phases do not exist. Applying temperature and pressure above the critical point of a substance, pushes that substance into the supercritical phase. The properties of this fluid can be adjusted by going further into the supercritical region.  This is achieved by increasing the temperature or pressure.&lt;/p&gt;
+&lt;p&gt;A supercritical fluid is any fluid at a temperature and pressure above its critical point, where distinct liquid and gas phases do not exist. Applying temperature and pressure above the critical point of a substance pushes that substance into the supercritical phase. The properties of this fluid can be adjusted by going further into the supercritical region. This is achieved by increasing the temperature or pressure.&lt;/p&gt;
 
 
 
@@ -502,11 +500,11 @@ In addition to giving me insights into the design and simulation of a practical 
 &lt;/figure&gt;
 
 &lt;h2 id=&#34;bsupercritical-carbon-dioxideb&#34;&gt;&lt;b&gt;Supercritical Carbon Dioxide&lt;/b&gt;&lt;/h2&gt;
-&lt;p&gt;Under normal atmospheric conditions, CO2 behaves as a gas, but if the temperature and the pressure are both increased to beyond the parameters of its critical point, it starts behaving midway between a liquid and a gas. This is called the supercritical state of CO2, with the fluid having a density similar to that of a liquid while occupying a volume in the same way a gas does. The parameters for the critical point for CO2 are given below:&lt;/p&gt;
+&lt;p&gt;Under normal atmospheric conditions, CO2 behaves as a gas. However, if the temperature and the pressure are increased to beyond the parameters of its critical point, it starts behaving midway between a liquid and a gas. This is called the supercritical state of CO2, with the fluid having a density similar to that of a liquid while occupying a volume in the same way a gas does. The parameters for the critical point for CO2 are given below:&lt;/p&gt;
 &lt;p&gt;Temperature: 304.25 K
 Pressure: 7.39 MPa&lt;/p&gt;
 &lt;h2 id=&#34;bsimulation-setup-for-normal-co2b&#34;&gt;&lt;b&gt;Simulation setup for normal CO2&lt;/b&gt;&lt;/h2&gt;
-&lt;p&gt;In order to get familiarized with the behavior of CO2 in a flow channel, it was first simulated under normal conditions. The properties of CO2 were imported from NIST REFPROP, by writing a line of code in ANSYS Fluent to initialize the REFPROP database, and select the corresponding CO2 file to be imported.&lt;/p&gt;
+&lt;p&gt;To get familiarized with the behavior of CO2 in a flow channel, it was first simulated under normal conditions. The properties of CO2 were imported from NIST REFPROP, by writing a line of code in ANSYS Fluent to initialize the REFPROP database, and select the corresponding CO2 file to be imported.&lt;/p&gt;
 &lt;p&gt;The pipe length was set to be 0.1m, and the diameter as 0.005m. The boundary conditions are summarized below:&lt;/p&gt;
 &lt;p&gt;Inlet velocity = 0.5 m/s
 Temperature of Fluid at inlet = 300 K
@@ -591,7 +589,7 @@ Walls: No-slip condition&lt;/p&gt;
 &lt;p&gt;From the above data and analysis, we can conclude that flow of CO2 through a pipe develops, both hydrodynamically and thermally, after a certain point, as shown by the calculations. The next step is to simulate a similar case for supercritical flow, with the temperature and pressure being inputted accordingly.&lt;/p&gt;
 &lt;h2 id=&#34;bsimulation-setup-for-supercritical-co2b&#34;&gt;&lt;b&gt;Simulation setup for supercritical CO2&lt;/b&gt;&lt;/h2&gt;
 &lt;p&gt;The setup remains the same, except for the temperature of the fluid at the inlet, which is changed to 304.25 K, the supercritical temperature of CO2. However, at the supercritical pressure and temperature, the simulation in Fluent did not behave as expected, even if the outlet boundary condition is changed. So far, the NIST Real gas tables have been linked with the Fluent console. Since the results were not satisfactory, a different approach was required.&lt;/p&gt;
-&lt;p&gt;Necessary properties such as density and thermal conductivity were explicitly exported from REFPROP into MS-Excel, and their variations with temperature were plotted. Using the trend line feature of Excel, the approximate polynomials for the respective graphs were extracted, as shown below:&lt;/p&gt;
+&lt;p&gt;Fundamental properties such as density and thermal conductivity were explicitly exported from REFPROP into MS-Excel, and their variations with temperature were plotted. Using the trend line feature of Excel, the approximate polynomials for the respective graphs were extracted, as shown below:&lt;/p&gt;
 
 
 

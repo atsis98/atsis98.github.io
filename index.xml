@@ -136,6 +136,137 @@
     </item>
     
     <item>
+      <title>I believe it can fly</title>
+      <link>https://atsis98.github.io/post/airplane/</link>
+      <pubDate>Wed, 19 Aug 2020 19:57:52 +0530</pubDate>
+      <guid>https://atsis98.github.io/post/airplane/</guid>
+      <description>&lt;p&gt;The miracle of flight has astounded humans for centuries. Since the dawn of time, there have been stories, myths, and legends talking about mankind’s attempt to mimic the action of birds and make the skies his own. From the winged Pegasus overthrowing monsters on the battlefield to the tragic tale of Icarus - the man who flew too high, these stories perhaps reflect the failed attempts made by the ancients.&lt;/p&gt;
+&lt;p&gt;While we may not know much about the distant past, the journey to flight has had many key moments from the middle ages: Leonardo da Vinci’s schematics that were ahead of their time, the Montgolfier brothers taking to the skies aboard a hot air balloon and the various gliders that were designed by George Cayley and Otto Lilienthal. However, the moment that history has immortalized is the daring hop across 120 feet that the engine-powered contraption that the Wright brothers fabricated at Kitty Hawk.&lt;/p&gt;
+&lt;p&gt;From that 1903 breakthrough, the concept of flight took off, reaching greater heights and capturing the imagination of the public. Lindbergh and Amelia Earhart’s trans-Atlantic flights, the development of military aircraft for the World Wars and the development of aviation giants post-WW II have in a few short years brought the impossible to the common man. Now, you might be wondering why I am giving you a lesson in the history of flight; I am doing so to give an insight into why I am inspired by the phenomenon, and how that came to be.&lt;/p&gt;
+&lt;p&gt;I’ve always been a voracious reader, ever since I learned how to, at a very young age. Although I loved stories, the books that fascinated me the most were the Young Scientist and Childcraft book series, which was aimed to give kids an introduction to the world of science and technology. I found myself drawn towards the books that talked about space exploration and the way humans defied the gravity of the Earth to quite literally, reach for the stars.&lt;/p&gt;
+&lt;p&gt;As that childhood dream matured into adolescence, I started to think in terms of choosing a career that would have me working towards my passion, taking up a science stream in high school. I was in Class 11 when we had someone come and teach us how to make a plane with balsa wood as part of our school ‘Cultural Week”. That was where I first got the opportunity to convert a dream into a tangible reality. We used the energy stored in a twisted rubber band to rotate the rudimentary propeller and had a competition to see whose plane would be the most stable and fly the farthest.&lt;/p&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-the-balsa-plane-i-left-built-with-the-help-of-my-classmates&#34;&gt;
+
+
+
+  &lt;img data-src=&#34;https://atsis98.github.io/post/airplane/Balsa_hu601d16702d14b37cc2e74d2d7f41670a_102313_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;
+
+
+
+  
+  
+  &lt;figcaption&gt;
+    The balsa plane I (left) built with the help of my classmates
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;After graduating from school, I took up Mechanical Engineering as my undergraduate major at BITS Pilani, Hyderabad Campus, the top-ranked private university in India. I took part in various competitions and extracurricular activities, building my skill-set and learning as much as I could. In my fourth semester, we were required to design something for the Production Techniques course and spend the next semester fabricating it using some techniques taught in the course. By this time, I had learned the basics of flight theory from online courses and had an understanding of how an object heavier than air could fly.&lt;/p&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-the-four-basic-forces-experienced-by-an-airplane&#34;&gt;
+
+
+
+  &lt;img data-src=&#34;https://atsis98.github.io/post/airplane/featured_hu6b2d4c0d1c8c130b9ed638ecabb5c823_4058_2000x2000_fit_q90_lanczos.jpeg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;350&#34; height=&#34;144&#34;&gt;
+
+
+
+  
+  
+  &lt;figcaption&gt;
+    The four basic forces experienced by an airplane
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;Since this was a group project, my friends and I decided to try our hands at designing a full-fledged airplane. It was quite different from what everyone else was doing, but we were determined to give it a go. The objectives we came up with for the project are summarized below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To design a full CAD model of an aircraft.&lt;/li&gt;
+&lt;li&gt;To fabricate the CAD model in parts, using 3-D printing.&lt;/li&gt;
+&lt;li&gt;To move the control surfaces using servo motors and rotate the propeller using an electric motor.&lt;/li&gt;
+&lt;li&gt;To make a deployable landing gear mechanism.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We planned to manufacture each part individually using the 3D printer on campus. Considering the size of the parts and the 3D printer dimensions, the bigger parts like fuselage and wings had to be cut into 2-4 parts as per the requirements. Unfortunately, due to the dimensional restrictions of the 3D printer and a delay in procuring the materials, we were only able to fabricate a small prototype of the design, and not make the full-fledged scaled version we planned to make. Therefore, the objective about the movable control surfaces did not come to fruition either.&lt;/p&gt;
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-the-3d-printed-prototype-we-were-able-to-fabricate&#34;&gt;
+
+
+
+  &lt;img data-src=&#34;https://atsis98.github.io/post/airplane/project_hu27f7dc34c9db8fd2b063f3fba6be9864_95539_2000x2000_fit_q90_lanczos.jpg&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;500&#34; height=&#34;500&#34;&gt;
+
+
+
+  
+  
+  &lt;figcaption&gt;
+    The 3D printed prototype we were able to fabricate
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;This experience taught us a valuable lesson, that translating an idea to a finished product takes a lot of effort, and there will be obstacles that we might not anticipate in the way. Since then, I have taken up various other electives and projects that have convinced me of my desire for pursuing higher studies and shaped my research acumen, but I certainly hope that I will get a chance to work on airplanes in the future, and maybe even build a functional one someday.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Numerical Simulations and Design of a Novel Laparoscopic Instrument </title>
       <link>https://atsis98.github.io/project/laparoscopy/</link>
       <pubDate>Tue, 18 Aug 2020 22:38:08 +0530</pubDate>

@@ -2,8 +2,8 @@
   "name": "Harsha Sista",
   "short_name": "Harsha Sista",
   "lang": "en-us",
-  "theme_color": "rgb(0, 136, 204)",
-  "background_color": "rgb(0, 136, 204)",
+  "theme_color": "hsl(339, 90%, 68%)",
+  "background_color": "hsl(339, 90%, 68%)",
   "icons": [{
     "src": "/images/icon_hu3f7b2b206f3b1a0e7569742943667eab_21402_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",
